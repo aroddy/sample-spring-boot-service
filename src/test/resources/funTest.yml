@@ -1,0 +1,3 @@
+server:
+  port: 15623
+  context-path: /sample

@@ -4,4 +4,6 @@ build/
 .lazybones/
 .idea/
 *.iml
+target/
+taget/*
 *~
