@@ -1,4 +1,6 @@
 .git/
 .gradle/
+build/
 .lazybones/
+.idea/
 *~
