@@ -4,12 +4,14 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
 
 /**
  * Created by devyn on 3/9/15.
  */
 @EnableAutoConfiguration(exclude = { })
 @ComponentScan(value = { "sample.controller", "sample.service" })
+@Configuration
 public class Application {
     private static ConfigurableApplicationContext context;
 
